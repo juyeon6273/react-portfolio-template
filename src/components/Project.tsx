@@ -17,25 +17,26 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://ieeexplore.ieee.org/document/10335184" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://ieeexplore.ieee.org/document/10335184" target="_blank" rel="noreferrer"><h2>NLP-Based Product Demand Trend Prediction</h2></a>
+                <p>Architected a product demand trend prediction model, improving forecasting accuracy by 21% using Python, KoBERT, BERTopic, and DCN.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <img src={mock09} className="zoom" alt="thumbnail" width="100%"/>
+                <h2>Satellite Image Classification Performance Improvement</h2>
+                <p>Improved satellite image classification accuracy from 71% to 97.16% using Transfer Learning with MobileNetV2 and fine-tuning techniques.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <img src={mock08} className="zoom" alt="thumbnail" width="100%"/>
+                <h2>Co-Deep Learning Project</h2>
+                <p>Optimized the backend of a Docker-based EMR system and led development of a KoBERT pipeline for real-time clinical text classification, awarded an Excellence Prize.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <img src={mock07} className="zoom" alt="thumbnail" width="100%"/>
+                <h2>Creative Thinking Design Project with 3D Printing</h2>
+                <p>Collaborated with Ph.D. researchers to design a user-centered 3D keychain prototype integrating mechanical components for enhanced usability.</p>
             </div>
+            {/*
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
@@ -66,6 +67,7 @@ function Project() {
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
             </div>
+            */}
         </div>
     </div>
     );
